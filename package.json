@@ -9,7 +9,7 @@
     "lint": "next lint",
     "db:studio": "npx drizzle-kit studio",
     "db:push": "npx drizzle-kit push:pg",
-    "check:env": "echo $DATABASE_URL"
+    "check:env": "echo db$DATABASE_URL"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.12",
