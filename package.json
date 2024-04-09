@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "db:studio": "npx drizzle-kit studio",
-    "db:push": "npx drizzle-kit push:pg",
-    "check:env": "echo db$DATABASE_URL"
+    "db:push": "npx drizzle-kit push:pg"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.12",
